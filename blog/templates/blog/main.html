@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI가 당신의 나이와 감정을 예측해드립니다</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+<body>
+    <div class="all">
+        <image id="logo" src="{% static 'img/logo.png' %}"></image>
+    </div>
+    <div class="main">
+        <image id="stop" src="{% static 'img/main.png' %}"></image>
+        
+        <div class="button-container">
+            <a href="#" id="button_click" class="btn purple rounded">테 스 트 하 기</a>
+        </div>
+    </div>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
