@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI가 당신의 나이와 감정을 예측해드립니다</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- face-api.js CDN -->
+    <script src="{% static 'js/webcam.js' %}"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+</head>
+<body>
+    <div class="all">
+        <image id="logo" src="{% static 'img/logo.png' %}"></image>
+    </div>
+    <div class="main" id="webcam-container">
+        
+    </div>
+</body>
+</html>

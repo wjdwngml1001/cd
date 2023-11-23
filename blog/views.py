@@ -6,3 +6,6 @@ def main(request):
 
 def result(request):
     return render(request, 'blog/result.html',{})
+
+def webcam(request):
+    return render(request, 'blog/webcam.html',{})
